@@ -1,8 +1,11 @@
 # PartyGen White Paper and Strategic Roadmap V2
 
 **Document Version:** 2.0 | **Status:** Official Technical and Strategy Architecture
+
 **Category:** Web3 AI Game Creation and Social Publishing Platform
+
 **Master Brand:** PartyGen
+
 **Tagline:** Create the game. Start the party.
 
 ## Executive Summary
