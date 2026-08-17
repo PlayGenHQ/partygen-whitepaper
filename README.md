@@ -124,7 +124,21 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 | **Automated Remix Royalties** | When a creator builds on top of an existing template, smart contracts automatically split revenue between the original author and the new creator. |
 | **Governance** | Token holders vote on ecosystem grants, featured game spots, fee structures, and protocol updates. |
 
-### 4.2 Economic Principles
+### 4.2 Tokenomics Allocation
+
+| Category / Allocation | Percentage (%) | Vesting & Lockup Schedule | Details |
+| --- | --- | --- | --- |
+| **Liquidity Pool (LP)** | TBD | TBD | Provision for DEX and CEX liquidity |
+| **Team & Core Contributors** | TBD | TBD | Long term team alignment and operational incentives |
+| **Ecosystem & Creator Grants** | TBD | TBD | Game jam prize pools, creator rewards, and platform growth |
+| **Treasury & Reserve** | TBD | TBD | Platform emergency funds and future development reserve |
+| **Marketing & Growth** | TBD | TBD | User acquisition, strategic campaigns, and partnerships |
+| **Advisors & Partners** | TBD | TBD | Strategic guidance and industry networking |
+| **Public / Community Sale** | TBD | TBD | Initial distribution and community allocation |
+
+> **Note:** Tokenomics allocation percentages and vesting details are currently a Work in Progress (WIP) and will be officially finalized and updated prior to the Token Generation Event (TGE).
+
+### 4.3 Economic Principles
 
 1. **Focus on Fun First:** Revenue comes from active gameplay, multiplayer competitions, and cosmetic choices rather than speculative yields.
 2. **Sustainable Token Mechanics:** Platform creation fees, premium AI generation options, and tournament hosting fees recycle tokens back into the ecosystem treasury.
