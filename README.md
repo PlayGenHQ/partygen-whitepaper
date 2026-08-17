@@ -1,16 +1,5 @@
 # PartyGen White Paper and Strategic Roadmap V2
 
-**Document Version:** 2.0 | **Status:** Official Technical and Strategy Architecture
-
-**Category:** Web3 AI Game Creation and Social Publishing Platform
-
-**Master Brand:** PartyGen
-
-**Tagline:** Create the game. Start the party.
-
-
-
-
 PartyGen is a Web3 AI creation, publishing, and monetization platform built to make game development accessible to everyone. By replacing traditional code heavy game engines with a natural language interface, PartyGen lets creators describe, shape, test, and launch multiplayer social games directly within Web3 and Telegram ecosystems without writing code.
 
 The platform marks a pivot from single game tap to earn apps, such as TON Meme Party from 2024, into an AI native creation platform. PartyGen solves the engagement dropoff of simple micro apps by introducing real user generated content, deterministic engine validation, and viral social distribution.
