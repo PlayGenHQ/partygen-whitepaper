@@ -8,7 +8,7 @@
 
 **Tagline:** Create the game. Start the party.
 
-## Executive Summary
+
 
 PartyGen is a Web3 AI creation, publishing, and monetization platform built to make game development accessible to everyone. By replacing traditional code heavy game engines with a natural language interface, PartyGen lets creators describe, shape, test, and launch multiplayer social games directly within Web3 and Telegram ecosystems without writing code.
 
