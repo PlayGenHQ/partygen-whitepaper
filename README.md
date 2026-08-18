@@ -172,7 +172,7 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 | **Malicious Code in AI Outputs** | High | AI never outputs raw executable code. The engine parses strict JSON specifications into preaudited physics modules. |
 | **Spam or Low Quality Content** | Medium | Community moderation, token staking for featured spots, and algorithmic ranking based on play time. |
 | **Chain Dependency** | Medium | EVM abstraction allows deployment across multiple EVM L1 and L2 networks seamlessly. |
-| **Token Price Volatility** | Medium | Support dual settlement options in EVM stablecoins alongside $PARTY so creators receive stable payouts. |
+| **Token Price Volatility** | Medium | Support dual settlement options in EVM stablecoins alongside $PGN so creators receive stable payouts. |
 
 ## 7. Narrative and Team Guardrails
 
