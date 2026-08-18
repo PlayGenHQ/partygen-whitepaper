@@ -106,16 +106,16 @@ Generating raw game code directly with AI often causes memory bugs, unstable phy
 * **Asset Provenance:** Custom assets, characters, and game templates are recorded on chain via standard ERC tokens so creators maintain IP ownership.
 * **Smart Contract Remix Engine:** Automatic fee splitters pay royalties back to template creators whenever a modified version earns revenue.
 
-## 4. Creator Economy, Tokenomics, and $PARTY Token
+## 4. Creator Economy, Tokenomics, and $PGN Token
 
 The PartyGen economy connects creators, players, asset designers, and platform validators in a shared system.
 
-### 4.1 $PARTY Token Utility Matrix
+### 4.1 $PGN Token Utility Matrix
 
 | Utility Area | Function and Mechanics |
 | --- | --- |
-| **Creation Credits** | Holding or using $PARTY unlocks compute credits for AI sprite creation, audio generation, and complex prompts. |
-| **Monetization** | Creators earn player entry fees, item sales, and tournament prize pools directly in $PARTY or native EVM tokens like ETH. |
+| **Creation Credits** | Holding or using $PGN unlocks compute credits for AI sprite creation, audio generation, and complex prompts. |
+| **Monetization** | Creators earn player entry fees, item sales, and tournament prize pools directly in $PGN or native EVM tokens like $ETH. |
 | **Automated Remix Royalties** | When a creator builds on top of an existing template, smart contracts automatically split revenue between the original author and the new creator. |
 | **Governance** | Token holders vote on ecosystem grants, featured game spots, fee structures, and protocol updates. |
 
@@ -156,7 +156,7 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 
 * **Full Branding Switch:** Finalize complete brand updates across all social channels.
 * **Real Time Multiplayer:** Enable WebSocket state synchronization for head to head action.
-* **Creator Monetization:** Launch $PARTY reward EVM smart contracts for automated revenue sharing and remix tracking.
+* **Creator Monetization:** Launch $PGN reward EVM smart contracts for automated revenue sharing and remix tracking.
 * **Public Beta Launch:** Open unrestricted access to the PartyGen creation platform.
 
 ### Phase 4: Decentralized Studio, Marketplace, and Game Jams
