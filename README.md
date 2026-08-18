@@ -1,15 +1,17 @@
-# PartyGen White Paper and Strategic Roadmap V2
+# PartyGen White Paper and Strategic Roadmap V3
 
-PartyGen is a Web3 AI creation, publishing, and monetization platform built to make game development accessible to everyone. By replacing traditional code heavy game engines with a natural language interface, PartyGen lets creators describe, shape, test, and launch multiplayer social games directly within Web3 and Telegram ecosystems without writing code.
 
-The platform marks a pivot from single game tap to earn apps, such as TON Meme Party from 2024, into an AI native creation platform. PartyGen solves the engagement dropoff of simple micro apps by introducing real user generated content, deterministic engine validation, and viral social distribution.
+
+PartyGen is a Web3 AI creation, publishing, and monetization platform built to make game development accessible to everyone. By replacing traditional code heavy game engines with a natural language interface, PartyGen lets creators describe, shape, test, and launch multiplayer social games directly within Web3 ecosystems without writing code.
+
+The platform marks a pivot from single game tap to earn apps, such as Meme Party from 2024, into an AI native creation platform. PartyGen solves the engagement dropoff of simple micro apps by introducing real user generated content, deterministic engine validation, and viral social distribution.
 
 | Creation Pipeline Stage | Key Operations and Functions |
 | --- | --- |
 | **1. Creator Prompt Input** | User provides a natural language description, such as "Build a multiplayer dodge game in neon space". |
 | **2. PartyGen AI Compiler (LLM Layer)** | Parses intent and mechanics, configures the state machine, generates 2D and 3D visual assets, creates procedural audio, and designs UI skins. |
 | **3. Deterministic Game Engine** | Handles physics and collisions, synchronizes multiplayer state, manages leaderboards, and enforces anti cheat security. |
-| **4. Social and Web3 Distribution** | Deploys directly as a Telegram Mini App with zero customer acquisition cost, handles TON network payments, and manages asset remixing with revenue splits. |
+| **4. Social and Web3 Distribution** | Deploys directly with low friction customer acquisition, handles EVM network payments, and manages asset remixing with revenue splits. |
 
 ## 1. Industry Background and Problem Statement
 
@@ -25,7 +27,7 @@ Because of these requirements, turning an idea into a functional multiplayer gam
 
 ### 1.2 The Collapse of 2024 Era Tap to Earn Apps
 
-The 2024 wave of Telegram mini games, including the original TON Meme Party, showed strong initial viral reach. However, those early projects faced clear limits:
+The 2024 wave of Web3 micro games, including early meme party games, showed strong initial viral reach. However, those early projects faced clear limits:
 
 * **Repetitive Gameplay:** Mechanics relied almost entirely on tapping or clicking, offering little depth or long term interest.
 * **Unsustainable Token Economics:** Models depended on continuous token emissions without genuine demand or utility, leading to rapid player dropoff.
@@ -47,7 +49,7 @@ PartyGen turns players into creators by separating game design from technical co
 | 2 | **Generate** | AI compiles the game specification and visual assets. |
 | 3 | **Refine** | Creator adjusts rules, balance, and aesthetics via chat. |
 | 4 | **Test** | Instant sandbox preview with AI playtesting. |
-| 5 | **Publish** | One click deployment to Telegram and the Web. |
+| 5 | **Publish** | One click deployment to web and mini app environments. |
 | 6 | **Monetize** | Viral sharing, asset remixing, and Web3 payouts. |
 
 ### 2.1 The 6 Stage Creation Loop
@@ -56,7 +58,7 @@ PartyGen turns players into creators by separating game design from technical co
 2. **Generate:** The AI layer converts the prompt into a structured Game State Specification JSON while building matching graphics, audio, and UI elements.
 3. **Refine:** Creators adjust rules, hitboxes, scoring multipliers, and visual styles through simple chat prompts or visual sliders.
 4. **Test:** Creators launch an instant sandbox preview. AI agents run automated playtests to spot physics bugs, broken mechanics, or scoring exploits before release.
-5. **Publish:** The completed game is bundled into a lightweight web package and published instantly as a Telegram Mini App or Web link.
+5. **Publish:** The completed game is bundled into a lightweight web package and published instantly as a Web App or link.
 6. **Grow and Monetize:** Creators earn automatic payouts whenever players play their games, buy items, or remix their templates.
 
 ### 2.2 Product Truth: Specification Validation vs Runtime Execution
@@ -76,8 +78,8 @@ Generating raw game code directly with AI often causes memory bugs, unstable phy
 
 | Architecture Layer | Components and Functions |
 | --- | --- |
-| **Layer 4: Distribution Rail** | Telegram Mini App Container, WebGL Renderer, Mobile Web Targets. |
-| **Layer 3: Web3 Settlement** | TON Network Payments, Jetton Tokens, NFT Asset Registries, Automatic Royalty Splits. |
+| **Layer 4: Distribution Rail** | WebGL Renderer, Web App Container, Mobile Web Targets. |
+| **Layer 3: Web3 Settlement** | EVM Network Payments, ERC 20 Tokens, ERC 721 and ERC 1155 NFT Asset Registries, Automatic Royalty Splits. |
 | **Layer 2: Runtime Engine** | Server Authoritative Logic, Physics Sync, Leaderboards, Security Checks. |
 | **Layer 1: AI Generation Pipeline** | LLM Prompt Parser, Asset Diffusion Pipelines, Specification Compiler. |
 
@@ -91,20 +93,20 @@ Generating raw game code directly with AI often causes memory bugs, unstable phy
 
 * **Deterministic Physics:** A WebGL engine running fixed timestep physics, raycasting, and collision detection.
 * **Server Authoritative Sync:** Multiplayer matches use server side state checks to prevent cheating or memory editing.
-* **Cross Device Performance:** Small file sizes ensure games load instantly on mobile networks inside Telegram WebViews.
+* **Cross Device Performance:** Small file sizes ensure games load instantly across web browsers and mobile devices.
 
-### 3.3 Distribution and Telegram Integration
+### 3.3 Distribution and Web Integration
 
-* **Zero Friction Reach:** Direct deployment into Telegram chats and channels gives instant click to play access without app store downloads.
-* **Social Features:** Built in support for group chat leaderboards, referral links, multiplayer invites, and notifications.
+* **Zero Friction Reach:** Direct deployment to web and social embeds gives instant click to play access without app store downloads.
+* **Social Features:** Built in support for web leaderboards, referral links, multiplayer invites, and notifications.
 
-### 3.4 Web3 Infrastructure on TON Blockchain
+### 3.4 Web3 Infrastructure on EVM Blockchains
 
-* **Low Fee Microtransactions:** Built on TON for fast settlement times and low transaction costs for entry passes and item buys.
-* **Asset Provenance:** Custom assets, characters, and game templates are recorded on chain so creators maintain IP ownership.
+* **Low Fee Microtransactions:** Built on EVM compatible networks for fast settlement times and low transaction costs for entry passes and item buys.
+* **Asset Provenance:** Custom assets, characters, and game templates are recorded on chain via standard ERC tokens so creators maintain IP ownership.
 * **Smart Contract Remix Engine:** Automatic fee splitters pay royalties back to template creators whenever a modified version earns revenue.
 
-## 4. Creator Economy and $PARTY Token
+## 4. Creator Economy, Tokenomics, and $PARTY Token
 
 The PartyGen economy connects creators, players, asset designers, and platform validators in a shared system.
 
@@ -113,7 +115,7 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 | Utility Area | Function and Mechanics |
 | --- | --- |
 | **Creation Credits** | Holding or using $PARTY unlocks compute credits for AI sprite creation, audio generation, and complex prompts. |
-| **Monetization** | Creators earn player entry fees, item sales, and tournament prize pools directly in $PARTY or TON. |
+| **Monetization** | Creators earn player entry fees, item sales, and tournament prize pools directly in $PARTY or native EVM tokens like ETH. |
 | **Automated Remix Royalties** | When a creator builds on top of an existing template, smart contracts automatically split revenue between the original author and the new creator. |
 | **Governance** | Token holders vote on ecosystem grants, featured game spots, fee structures, and protocol updates. |
 
@@ -129,7 +131,7 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 | **Advisors & Partners** | TBD | TBD | Strategic guidance and industry networking |
 | **Public / Community Sale** | TBD | TBD | Initial distribution and community allocation |
 
-> **Note:** Tokenomics allocation percentages and vesting details are currently a Work in Progress (WIP) and will be officially finalized and updated prior to the Token Generation Event (TGE).
+> **Note:** Tokenomics allocation percentages and vesting details are currently a Work in Progress (WIP) and will be officially finalized prior to the Token Generation Event (TGE).
 
 ### 4.3 Economic Principles
 
@@ -140,21 +142,21 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 
 ### Phase 1: Brand Evolution and Core Infrastructure
 
-* **Brand Migration:** Transition legacy channels from TON Meme Party to PartyGen, using the bridge tagline "PartyGen, from the creators of TON Meme Party".
+* **Brand Migration:** Transition legacy channels from Meme Party to PartyGen, using the bridge tagline "PartyGen, from the creators of Meme Party".
 * **Core Engine Alpha:** Deploy closed testnet running the initial specification compiler and standard 2D physics modules.
 * **Creator Waitlist:** Onboard initial game designers, pixel artists, and prompt creators.
 
 ### Phase 2: Creator Engine and Public Prompt Demo
 
-* **Telegram Interface:** Launch the conversational PartyGen bot in Telegram for mobile creation.
-* **Public Demo:** Release a live 60 second video showing a plain text prompt turning into a playable multiplayer Telegram game.
+* **Web Creation Interface:** Launch the conversational PartyGen web studio interface for desktop and mobile creation.
+* **Public Demo:** Release a live 60 second video showing a plain text prompt turning into a playable multiplayer EVM game.
 * **Mechanics Library:** Expand supported game types to include Arcade Dodge, Endless Runner, Physics Puzzle, Arena Battle, and Trivia.
 
 ### Phase 3: Network Growth, Token Launch, and Public Beta
 
 * **Full Branding Switch:** Finalize complete brand updates across all social channels.
 * **Real Time Multiplayer:** Enable WebSocket state synchronization for head to head action.
-* **Creator Monetization:** Launch $PARTY reward contracts for automated revenue sharing and remix tracking.
+* **Creator Monetization:** Launch $PARTY reward EVM smart contracts for automated revenue sharing and remix tracking.
 * **Public Beta Launch:** Open unrestricted access to the PartyGen creation platform.
 
 ### Phase 4: Decentralized Studio, Marketplace, and Game Jams
@@ -169,8 +171,8 @@ The PartyGen economy connects creators, players, asset designers, and platform v
 | --- | --- | --- |
 | **Malicious Code in AI Outputs** | High | AI never outputs raw executable code. The engine parses strict JSON specifications into preaudited physics modules. |
 | **Spam or Low Quality Content** | Medium | Community moderation, token staking for featured spots, and algorithmic ranking based on play time. |
-| **Platform Dependency on Telegram** | Medium | Native WebGL compilation allows games to run on standalone web domains if external policies change. |
-| **Token Price Volatility** | Medium | Support dual settlement options in TON stablecoins alongside $PARTY so creators receive stable payouts. |
+| **Chain Dependency** | Medium | EVM abstraction allows deployment across multiple EVM L1 and L2 networks seamlessly. |
+| **Token Price Volatility** | Medium | Support dual settlement options in EVM stablecoins alongside $PARTY so creators receive stable payouts. |
 
 ## 7. Narrative and Team Guardrails
 
@@ -178,7 +180,7 @@ All team members and community managers should follow these core messaging rules
 
 1. **Focus on Playable Games:** Frame PartyGen around gameplay, fast creation, and social fun rather than financial speculation.
 2. **Position AI as a Tool:** Describe AI as an intuitive creator co pilot rather than a marketing buzzword.
-3. **Clear Infrastructure Roles:** Highlight Telegram for quick social reach and Web3 for creator ownership, without limiting future platform expansion.
+3. **Clear Infrastructure Roles:** Highlight EVM networks for fast, decentralized creator ownership and smart contract execution.
 4. **Transparent Capability Reach:** Communicate clearly that early beta templates cover focused casual game types as advanced mechanics are added.
 
 ## 8. Core Team Profile
@@ -187,5 +189,5 @@ All team members and community managers should follow these core messaging rules
 | --- | --- | --- |
 | **Platform Lead and CEO** | Former Gaming Studio Producer and Web3 Ecosystem Lead with experience in social gaming growth, token economics, and community building. | Directs overall strategic vision, brand execution, investor relations, and core ecosystem partnerships. |
 | **Head of AI and Engine Architecture** | Senior Machine Learning Engineer and Game Engine Developer with 8 years of experience in LLM pipelines and WebGL physics engines. | Leads compiler development, prompt parsing, generative asset pipelines, and runtime engine safety. |
-| **Web3 and Smart Contracts Lead** | Fullstack blockchain architect specializing in TON smart contracts, Jetton standards, and decentralized royalty systems. | Builds on chain asset registries, automated remix royalty splitters, microtransaction settlement, and contract security. |
-| **Growth and Community Lead** | Web3 growth strategist with experience running viral Telegram Mini App campaigns and building creator communities. | Drives creator onboarding, social distribution, community game jams, and player acquisition. |
+| **Web3 and Smart Contracts Lead** | Fullstack blockchain architect specializing in EVM smart contracts, ERC standards, and decentralized royalty systems. | Builds on chain asset registries, automated remix royalty splitters, microtransaction settlement, and contract security. |
+| **Growth and Community Lead** | Web3 growth strategist with experience running viral Web3 gaming campaigns and building creator communities. | Drives creator onboarding, social distribution, community game jams, and player acquisition. |
